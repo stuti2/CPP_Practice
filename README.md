@@ -1,2 +1,2 @@
 # CPP_Practice
-<img src="cpp_logo.png" width="136" height="144">
+<img src="cpp_logo.png" width="106" height="96">
