@@ -3,7 +3,7 @@
 This section conatins the following programs:
 
 - Find two uniques in array
-- Chcek if given number has alternate bits
+- Check if given number has alternate bits
 - Convert binary to hexadecimal
 - Print different characters in 2 strings
 - Find complement of a number
@@ -60,5 +60,95 @@ Input: s = "abcd", t = "abcde"
 Output: "e"
 ```
  
+ ### Number Complement
  
+ This program ([here](Number_Complement.cpp)) takes input a number inverts all the bits and gives new number, e.g.
  
+ ```
+ ./Number-Complement
+ 
+ Input: 10 (1010)
+ Output: 5 (0101)
+ ```
+ 
+ ### Power Of 2
+ 
+ This program, ([here](Power_Of_2.cpp)) checks whether the given number is power of 2 or not.
+ 
+ ```
+ ./Power-Of-2
+ 
+ Input: 64
+ Output: True
+ ```
+ 
+ ### Power Of 4
+ 
+ This program, ([here](Power_Of_4.cpp)) checks whether the given number is power of 4 or not.
+ 
+ ```
+ ./Power-Of-4
+ 
+ Input: 128
+ Output: True
+ ```
+ 
+ ### Reverse Bits
+ 
+ This program, ([here](Reverse_Bits.cpp)) reverse bits of a given 32 bits unsigned integer.
+ 
+ ```
+ ./Reverse-Bits
+ 
+Input: 00000010100101000001111010011100
+Output: 964176192 (00111001011110000010100101000000)
+ ```
+
+ ### Subsets Of Array
+ 
+ This program, ([here](Subsets_Of_array.cpp)) gives all subsets of an array.
+ 
+ ```
+ ./Subsets-Of-array
+ 
+Input: 4
+       1 2 3 4
+Output:         (empty set)
+         1 
+         2 
+         1 2 
+         3 
+         1 3 
+         2 3 
+         1 2 3 
+         4 
+         1 4 
+         2 4 
+         1 2 4 
+         3 4 
+         1 3 4 
+         2 3 4 
+         1 2 3 4 
+ ```
+ 
+ ### Total Hamming Distance
+ 
+ This program, ([here](Total_Hamming_Distance.cpp)) gives sum of all number of positions at which the corresponding bits are different.
+ 
+ ```
+ ./Total-Hamming-Distance
+ 
+Input: [4,14,2]
+Output: 6
+```
+
+### Unique Number in Array
+
+This program ([here](Unique_no._in_array.cpp))takes an input array and gives the unique number, e.g.
+
+```
+./Unique-no.-in-array
+
+Input: 2 3 4 5 3 4 3 2
+Output: 5
+```
