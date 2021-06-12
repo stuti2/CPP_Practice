@@ -5,6 +5,7 @@ This section conatins the following programs:
 - Generate Parentheses
 - Possible words from phone digits
 - Rat in a Maze
+- Possible Permutations
 
 
 ### Generate Parentheses
@@ -55,4 +56,20 @@ Output: 1 0 0 0 0
         0 0 0 1 0 
         0 0 0 1 1 
         0 0 0 0 1 
+```
+### Possible Permutations
+
+This program ([here](Permutations.cpp)) determines all the possible permutations of an array, e.g.
+
+```
+./Possible-Permutations
+
+Input: 3
+       A B C
+Output: ABC
+        ACB
+        BAC
+        BCA     
+        CBA
+        CAB
 ```
