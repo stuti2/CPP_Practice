@@ -6,11 +6,11 @@ This section conatins the following programs:
 - Possible words from phone digits
 - Rat in a Maze
 - Possible Permutations
-
+- N Queen
 
 ### Generate Parentheses
 
-This program ([here](Generate_Parentheses.cpp))takes input a number and generates all possbile combinations of parentheses, e.g.
+This program ([here](Generate_Parentheses.cpp)) takes input a number and generates all possbile combinations of parentheses, e.g.
 
 ```
 ./Generate-Parentheses
@@ -72,4 +72,17 @@ Output: ABC
         BCA     
         CBA
         CAB
+```
+### N Queen
+
+This program ([here](NQueen.cpp)) places N queens on a NxN chessboard such that no 2 queens attack each other, e.g.
+
+```
+./N-Queen
+
+Input: 4
+Output: 0100
+        0001
+        1000
+        0010
 ```
