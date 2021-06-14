@@ -8,6 +8,7 @@ This section conatins the following programs:
 - Possible Permutations
 - N Queen
 - Combination Sum
+- Black and White Knights
 
 ### Generate Parentheses
 
@@ -104,4 +105,15 @@ Output: (2 2 2 2 2 2 2 2)
         (2 2 6 6)
         (2 7 7)
         (5 5 6)
+```
+### Black and white knight
+
+This program ([here](Black_and_White_Knight.cpp)) places N queens on a NxN chessboard such that no 2 queens attack each other, e.g.
+
+```
+./Black-and-White-Knight
+
+Input: 2        
+       2
+Output: 12
 ```
