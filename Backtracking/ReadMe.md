@@ -7,6 +7,7 @@ This section conatins the following programs:
 - Rat in a Maze
 - Possible Permutations
 - N Queen
+- Combination Sum
 
 ### Generate Parentheses
 
@@ -85,4 +86,22 @@ Output: 0100
         0001
         1000
         0010
+```
+### Combination Sum
+
+This program ([here](Combination_Sum.cpp)) takes input a number N, array A, sum B and finds all unique combinations in the array where the sum is equal to B. The same number may be chosen from the array any number of times to make B., e.g.
+
+```
+./Combination-Sum
+
+Input: 4
+       7 2 6 5
+       16
+Output: (2 2 2 2 2 2 2 2)
+        (2 2 2 2 2 6)
+        (2 2 2 5 5)
+        (2 2 5 7)
+        (2 2 6 6)
+        (2 7 7)
+        (5 5 6)
 ```
