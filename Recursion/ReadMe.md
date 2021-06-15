@@ -10,6 +10,7 @@ This section conatins the following programs:
 - Reverse string
 - Sort array
 - Tower of hanoi
+- Decode the string
 
 
 ### First occurance and last occurance
@@ -68,7 +69,7 @@ Output: "abcd3.14efg3.14ijkl3.14mn3.14o3.14"
  
  ### Sorted Array
  
- This program, ([here](Sorted_array.cpp)) sorts the array.
+ This program, ([here](Sorted_array.cpp)) sorts the array, e.g.
  
  ```
  ./Sorted-array
@@ -96,4 +97,15 @@ Output : Move block 1 from A to C
           Move block 1 from B to A
           Move block 2 from B to C
           Move block 1 from A to C
+ ```
+### Decode the String
+ 
+ In this program, ([here](Decode_the_String.cpp)) an encoded string (s) is given, the task is to decode it, e.g.
+ 
+ ```
+ ./Decode-the-String
+ 
+ Input: 1
+        3[b2[ca]]
+ Output: bcacabcacabcaca
  ```
