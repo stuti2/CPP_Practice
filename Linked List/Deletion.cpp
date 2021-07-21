@@ -76,9 +76,9 @@ int main() {
     node* head=NULL; 
     
     insertAtTail(head,1);
-    // insertAtTail(head,2);
-    // insertAtTail(head,3);
-    // insertAtTail(head,4);
+    insertAtTail(head,2);
+    insertAtTail(head,3);
+    insertAtTail(head,4);
     display(head);
     deleteNode(head,1);
     display(head);
