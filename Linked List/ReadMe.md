@@ -4,6 +4,7 @@ This section conatins the following programs:
 
 - Make, detect and remove Cyclic Linked List
 - Deleting a node 
+- Doubly Linked List
 - Insert a node at head and tail
 - Reverse K nodes
 - Reverse the linked list
@@ -27,11 +28,24 @@ Output: 1->2->3->4->5->6->NULL
 ### Deleting a node
 
 This program ([here](Deletion.cpp)) deletes a particular node in linked list, e.g.
+
 ```
 ./Deleting-a-node
 
 Output: 1->2->3->4->NULL
         2->3->4->NULL
+
+```
+
+### Doubly Linked List
+
+This program ([here](DoublyLinkedList.cpp)) shows insertion and deletion operation in doubly linked list, e.g.
+
+```
+./Doubly-Linked-List
+
+Output: 1->2->3->4->5->6->NULL
+        2->3->4->5->6->NULL
 
 ```
 
