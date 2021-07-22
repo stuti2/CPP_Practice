@@ -2,6 +2,7 @@
 
 This section conatins the following programs:
 
+- Append k nodes
 - Make, detect and remove Cyclic Linked List
 - Deleting a node 
 - Doubly Linked List
@@ -10,12 +11,24 @@ This section conatins the following programs:
 - Reverse the linked list
 
 
+### Append k nodes
+This program ([here](AppendKNodes.cpp)) appends last k nodes to the beginning, e.g.
+
+```
+./Append-k-nodes
+
+Input: 3
+Output: 1->2->3->4->5->6->NULL
+        4->5->6->1->2->3->NULL
+
+```
+
 ### Cyclic Linked List
 
 This program ([here](CyclicLinkedList.cpp)) makes a cyclic linked list, detects and removes the same, e.g.
 
 ```
-./CyclicLinkedList
+./Cyclic-Linked-List
 
 Output: 1->2->3->4->5->6->NULL
         0
