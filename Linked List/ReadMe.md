@@ -6,9 +6,12 @@ This section conatins the following programs:
 - Make, detect and remove Cyclic Linked List
 - Deleting a node 
 - Doubly Linked List
+- Intersection point of 2 nodes
 - Insert a node at head and tail
+- Count pairs with sum X
 - Reverse K nodes
 - Reverse the linked list
+- Rotate doubly linked list 
 
 
 ### Append k nodes
@@ -62,6 +65,19 @@ Output: 1->2->3->4->5->6->NULL
 
 ```
 
+### Intersection point of 2 nodes
+
+This program ([here](IntersectionPointOf2Nodes.cpp)) finds the intersection point of 2 nodes, e.g.
+
+```
+./Intersection-Point-Of-2-Nodes
+
+Output: 1->2->3->4->5->6->NULL
+        9->10->NULL
+        3
+
+```
+
 ### Insert a node 
 
 This program ([here](LinkedList.cpp)) inserts a node at head or tail respectively, e.g.
@@ -75,7 +91,21 @@ Output: 1->2->3->NULL
         
 ```
 
+### Count pairs with sum X 
 
+This program ([here](PairsumX.cpp)) counts all the pairs from both linked lists whose sum is equal to the given value X, e.g.
+
+```
+./Pairsum-X
+
+Input:  6 3 15
+        1 2 3 4 5 6
+        11 12 13
+Output: 1->2->3->4->5->6->NULL
+        11->12->13->NULL
+        3
+        
+```
  
  ### Reverse K Nodes
  
@@ -101,4 +131,16 @@ Output: 1->2->3->NULL
           
  ```
  
+ ### Rotate Doubly Linked List
  
+ This program, ([here](RotateDLL.cpp)) rotates the doubly linked list clockwise by P nodes. Here P is a given positive integer and is smaller than the count of nodes(N) in a   linked list., e.g.
+ 
+ ```
+ ./Rotate-DLL
+ 
+  Input:  6 2
+          1 2 3 4 5 6
+  Output: 1->2->3->4->NULL
+          4->3->2->1->NULL
+          
+ ```
