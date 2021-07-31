@@ -9,6 +9,7 @@ This section conatins the following programs:
 - Intersection point of 2 nodes
 - Insert a node at head and tail
 - Count pairs with sum X
+- Reverse doubly linked list
 - Reverse K nodes
 - Reverse the linked list
 - Rotate doubly linked list 
@@ -106,7 +107,21 @@ Output: 1->2->3->4->5->6->NULL
         3
         
 ```
+
+### Reverse Doubly Linked List
  
+ This program ([here](ReverseDLL.cpp)) reverses a doubly linked list, e.g.
+ 
+ ```
+ ./Reverse-doubly-linked-list
+ 
+ Input: 6 
+        1 2 3 4 5 6
+ Output: 1->2->3->4->5->6->NULL
+         6->5->4->3->2->1->NULL
+        
+ ```
+
  ### Reverse K Nodes
  
  This program ([here](ReverseKNodes.cpp)) reverses k nodes in linked list, e.g.
