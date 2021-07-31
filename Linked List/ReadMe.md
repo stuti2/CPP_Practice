@@ -115,8 +115,8 @@ Output: 1->2->3->4->5->6->NULL
  ```
  ./Reverse-doubly-linked-list
  
- Input: 6 
-        1 2 3 4 5 6
+ Input:  6 
+         1 2 3 4 5 6
  Output: 1->2->3->4->5->6->NULL
          6->5->4->3->2->1->NULL
         
@@ -155,7 +155,7 @@ Output: 1->2->3->4->5->6->NULL
  
   Input:  6 2
           1 2 3 4 5 6
-  Output: 1->2->3->4->NULL
-          4->3->2->1->NULL
+  Output: 1->2->3->4->5->6->NULL
+          3->4->5->6->1->2->NULL
           
  ```
