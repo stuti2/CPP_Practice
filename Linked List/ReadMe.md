@@ -13,6 +13,7 @@ This section conatins the following programs:
 - Reverse K nodes
 - Reverse the linked list
 - Rotate doubly linked list 
+- Sort a linked list of 0s, 1s and 2s
 
 
 ### Append k nodes
@@ -157,5 +158,19 @@ Output: 1->2->3->4->5->6->NULL
           1 2 3 4 5 6
   Output: 1->2->3->4->5->6->NULL
           3->4->5->6->1->2->NULL
+          
+ ```
+
+### Sort a linked list of 0s, 1s and 2s
+ 
+ This program, ([here](SortLL_0s-1s-2s.cpp)) sorts a linked list containing values 0,1 and 2 only, e.g.
+ 
+ ```
+ ./Sort-a-linked-list-of-0s-1s-2s
+ 
+  Input:  1
+          17
+          2 1 1 1 0 1 2 0 1 0 1 0 1 2 0 0 1
+  Output: 0->0->0->0->0->0->1->1->1->1->1->1->1->1->2->2->2->NULL
           
  ```
