@@ -14,6 +14,7 @@ This section conatins the following programs:
 - Reverse the linked list
 - Rotate doubly linked list 
 - Sort a linked list of 0s, 1s and 2s
+- Merge in between linked lists
 
 
 ### Append k nodes
@@ -172,5 +173,22 @@ Output: 1->2->3->4->5->6->NULL
           17
           2 1 1 1 0 1 2 0 1 0 1 0 1 2 0 0 1
   Output: 0->0->0->0->0->0->1->1->1->1->1->1->1->1->2->2->2->NULL
+          
+ ```
+
+### Merge in between linked lists
+ 
+ This program, ([here](MergeInBetweenLL.cpp)) removes list1's nodes from the xth node to the yth node, and put list2 in their place, e.g.
+ 
+ ```
+ ./Merge-in-between-linked-lists
+ 
+  Input:  5 4
+          4 2 2 10 5
+          1 2 3 4
+          1 3
+  Output: 4->2->2->10->5->NULL
+          1->2->3->4->NULL
+          4->1->2->3->4->5->NULL
           
  ```
