@@ -15,6 +15,7 @@ This section conatins the following programs:
 - Rotate doubly linked list 
 - Sort a linked list of 0s, 1s and 2s
 - Merge in between linked lists
+- Odd even linked list
 
 
 ### Append k nodes
@@ -190,5 +191,19 @@ Output: 1->2->3->4->5->6->NULL
   Output: 4->2->2->10->5->NULL
           1->2->3->4->NULL
           4->1->2->3->4->5->NULL
+          
+ ```
+
+### Odd even linked list
+ 
+ This program, ([here](OddEvenLinkedList.cpp)) groups all the nodes with odd indices together followed by the nodes with even indices, and returns the reordered list, e.g.
+ 
+ ```
+ ./Odd-even-linked-list
+ 
+  Input:  5
+          1 2 3 4 5
+  Output: 1->2->3->4->5->NULL
+          1->3->5->2->4->NULL
           
  ```
